@@ -1,3 +1,10 @@
+
+.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
 body {
 
     font-family: Arial, sans-serif;
@@ -8,8 +15,12 @@ body {
 }
 nav{
 
+    display: flex;
+    align-items: center;
     text-align: center;
-    text
+    padding: 5px;
+    margin: 10px;
+    
 
 }
 h1{
@@ -29,20 +40,13 @@ h2{
     text-align: center;
 
 }
-.metodos-p{
-    text-align: left;
-    padding: 1rem;
-    margin: 2rem;
-    background-color: #f2f2f2;
-    box-shadow: 6 6 54px #262d7608;
 
-}
-.metodos-m{
+.metodos-m,.metodos-p,.metodos-r{
     display: inline-block;
     width: 200px;
     margin: 20px;
-    padding: 5px;
-    background-color: #ffffff;
+    padding: 0px;
+    background-color: #f2f2f2;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
@@ -50,17 +54,27 @@ h2{
 }
 .metodos-m h3{
     color: #466A50;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: relawey;
 }
 .metodos-m p{
     color: #696984;
     font-size: 13px;
+    margin-left: 10px;
 }
 .metodos-m img{
-    max-inline-size: 200px;
+
     flex-shrink: 0;
+    height: 112.5px;
+    
 }
 .metodos-m button{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
     color: #ffffff;
     border-radius: 10px;
     background: rgba(70, 106, 80, 0.60);
+    border: #f2f2f2;
 }
