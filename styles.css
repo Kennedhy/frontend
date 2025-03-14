@@ -1,0 +1,66 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+
+}
+nav{
+
+    text-align: center;
+    text
+
+}
+h1{
+
+    text-align: center;
+
+}
+h2{
+
+    text-align: center;
+    color: #466A50 ;
+    font-size: 34px;
+
+}
+.metodos{
+
+    text-align: center;
+
+}
+.metodos-p{
+    text-align: left;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #f2f2f2;
+    box-shadow: 6 6 54px #262d7608;
+
+}
+.metodos-m{
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+    text-align: left;
+}
+.metodos-m h3{
+    color: #466A50;
+}
+.metodos-m p{
+    color: #696984;
+    font-size: 13px;
+}
+.metodos-m img{
+    max-inline-size: 200px;
+    flex-shrink: 0;
+}
+.metodos-m button{
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(70, 106, 80, 0.60);
+}
