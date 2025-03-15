@@ -57,6 +57,7 @@ h2{
     margin-left: 10px;
     margin-top: 10px;
     font-family: relawey;
+    
 }
 .metodos-m p{
     color: #696984;
@@ -68,6 +69,7 @@ h2{
     flex-shrink: 0;
     height: 112.5px;
     
+    
 }
 .metodos-m button{
     width: 100px;
@@ -77,4 +79,7 @@ h2{
     border-radius: 10px;
     background: rgba(70, 106, 80, 0.60);
     border: #f2f2f2;
+}
+.metodos-m button:hover{
+    background: #696984;
 }
