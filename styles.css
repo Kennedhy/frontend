@@ -11,24 +11,44 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
 
 }
-nav{
-
-    display: inline-flex;
+.navbar {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
-    font-size: 15px;
-    width: 100%;
+    padding: 1.5rem 2rem;
+    position: relative;
+    z-index: 10;
 }
-.home, .Sobre,.Cursos,.blog{
-    font-family: raleway;
-    font-weight: 800;
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
     text-decoration: none;
-    color: #f2f2f2;
-    
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    white-space: nowrap;
 }
 header{
     display: block;
@@ -38,6 +58,7 @@ header{
     color: #f2f2f2;
     
 }
+
 .baner h1{
     font-size: 40px;
     padding: 10px;
