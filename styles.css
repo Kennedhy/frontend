@@ -87,30 +87,46 @@ h1{
     text-align: center;
 
 }
-h2{
+.titulos{
+    align-items: center;
+}
+.titulos h2{
 
     text-align: center;
     color: #466A50 ;
     font-size: 34px;
-
 }
-.metodos{
+.titulos p{
 
+    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.metodos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     text-align: center;
 
 }
 
 .metodos-m,.metodos-p,.metodos-r{
-    overflow: hidden;
-    display: inline-block;
-    width: 200px;
-    margin: 20px;
+    width: 100%;
+    max-width: 200px;
     padding: 0px;
     background-color: #f2f2f2;
-    border: 0px solid #ccc;
     border-radius: 10px;
     box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
     text-align: left;
+}
+.metodos img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .metodos h3{
     color: #466A50;
@@ -125,13 +141,6 @@ h2{
     font-size: 13px;
     margin-left: 10px;
 }
-.metodos img{
-
-    flex-shrink: 0;
-    height: 112.5px;
-    
-    
-}
 .metodos button{
     width: 100px;
     height: 30px;
@@ -144,15 +153,31 @@ h2{
 .metodos button:hover{
     background: #696984;
 }
+.m:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+      transform: scale(1.10, 1.10);
+  }
 .por-que-escolher{
-    background-image: url(imagens/Frame\ 237687.png);
+    background-image: url('imagens/Frame 237687.png');
     background-size: cover;
+    background-position: center;
     height: 370px;
     margin: 20px;
-
 }
+
 .mais-sobre{
-    
+    display: block;
+    align-items: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding: 10px;
+
 }
 .mais-sobre h3{
     font-family: raleway;
@@ -160,7 +185,6 @@ h2{
     font-size: 22px;
 }
 .mais-sobre p{
-    font-family: raleway;
     font-size: 12px;
 
 }
@@ -171,33 +195,73 @@ h2{
     border-radius: 10px;
     background: rgba(70, 106, 80, 0.60);
     border: #f2f2f2;
+    font-weight: 600;
 }
-.mais-p,.mais-r{
+
+.v{
     background: #58785B;
-    padding: 20px;
     color: #f2f2f2;
 }
-.mais-sobre img{
-    height: 300px;
-    width: 300px;
+.v button{
+    color: #466A50;
+    background: #f2f2f2;
+}
+.mais-sobre img {
+    width: 350px;
+    max-width: 600px;
+    height: 350px;
+    max-height: 600px;
     border-radius: 10px;
 }
-.mais-p div{
-
-    width: 300px;
-    display: inline-block;
-    margin-left: 20px;
+.t{
+    margin: 10px;
 }
-.mais-m div{
-
-    width: 300px;
-    display: inline-block;
-    margin-left: 20px;
+.caminho-aprendizagem{
+    background-image: url('imagens/Frame\ 1171275895.png');
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    margin: 20px;
 }
-.mais-r div{
+.historias-alunos{
+    background-image: url('imagens/historias.png');
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    margin: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(imagens/images.jpg);
+    height: 500px;
+    color: #f2f2f2;
+    overflow: hidden;
 
-    width: 300px;
-    display: inline-block;
-    margin-left: 20px;
 }
 
+.baner-2 h1{
+    font-size: 40px;
+    padding: 0px;
+    width: 600px;
+    display: inline-block;
+    
+}
+.baner-2 p{
+    font-size: 18px;
+    margin: 10px;
+}
+.baner-2 button{
+    width: 200px;
+    height: 40px;
+    color: #466A50;
+    border-radius: 10px;
+    background: #f2f2f2;
+    border: #f2f2f2;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 800;
+
+}
