@@ -6,8 +6,8 @@
     font-style: normal;
   }
 body {
-
-    font-family: Arial, sans-serif;
+    min-height: 100%;
+    font-family: raleway;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -15,12 +15,50 @@ body {
 }
 nav{
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
     text-align: center;
     padding: 5px;
     margin: 10px;
+    font-size: 15px;
+    width: 100%;
+}
+.home, .Sobre,.Cursos,.blog{
+    font-family: raleway;
+    font-weight: 800;
+    text-decoration: none;
+    color: #f2f2f2;
     
+}
+header{
+    display: block;
+    text-align: center;
+    background-image: url(imagens/images.jpg);
+    height: 500px;
+    color: #f2f2f2;
+    
+}
+.baner h1{
+    font-size: 40px;
+    padding: 10px;
+    width: 450px;
+    display: inline-block;
+    
+}
+.baner p{
+    font-size: 18px;
+    padding: 10px;
+}
+.baner button{
+    width: 200px;
+    height: 40px;
+    color: #466A50;
+    border-radius: 10px;
+    background: #f2f2f2;
+    border: #f2f2f2;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 800;
 
 }
 h1{
@@ -42,36 +80,38 @@ h2{
 }
 
 .metodos-m,.metodos-p,.metodos-r{
+    overflow: hidden;
     display: inline-block;
     width: 200px;
     margin: 20px;
     padding: 0px;
     background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
     box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
     text-align: left;
 }
-.metodos-m h3{
+.metodos h3{
     color: #466A50;
     margin-left: 10px;
     margin-top: 10px;
-    font-family: relawey;
-    
+    font-family: raleway;
+    font-weight: 800;
+
 }
-.metodos-m p{
+.metodos p{
     color: #696984;
     font-size: 13px;
     margin-left: 10px;
 }
-.metodos-m img{
+.metodos img{
 
     flex-shrink: 0;
     height: 112.5px;
     
     
 }
-.metodos-m button{
+.metodos button{
     width: 100px;
     height: 30px;
     margin: 10px;
@@ -80,6 +120,63 @@ h2{
     background: rgba(70, 106, 80, 0.60);
     border: #f2f2f2;
 }
-.metodos-m button:hover{
+.metodos button:hover{
     background: #696984;
 }
+.por-que-escolher{
+    background-image: url(imagens/Frame\ 237687.png);
+    background-size: cover;
+    height: 370px;
+    margin: 20px;
+
+}
+.mais-sobre{
+    
+}
+.mais-sobre h3{
+    font-family: raleway;
+    font-weight: 800;
+    font-size: 22px;
+}
+.mais-sobre p{
+    font-family: raleway;
+    font-size: 12px;
+
+}
+.mais-sobre button{
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(70, 106, 80, 0.60);
+    border: #f2f2f2;
+}
+.mais-p,.mais-r{
+    background: #58785B;
+    padding: 20px;
+    color: #f2f2f2;
+}
+.mais-sobre img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.mais-p div{
+
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.mais-m div{
+
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.mais-r div{
+
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
