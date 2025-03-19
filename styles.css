@@ -80,7 +80,11 @@ header{
     font-size: 20px;
     font-family: raleway;
     font-weight: 800;
-
+}
+.baner button:hover{
+    transform: scale(1.10, 1.10);
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    background: #ffffff;
 }
 h1{
 
@@ -124,7 +128,7 @@ h1{
 }
 .metodos img{
     width: 100%;
-    height: auto;
+    height: 110px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -151,18 +155,49 @@ h1{
     border: #f2f2f2;
 }
 .metodos button:hover{
-    background: #696984;
+    background: #58785B;
 }
 .m:hover {
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-      transform: scale(1.10, 1.10);
+    transform: scale(1.10, 1.10);
   }
 .por-que-escolher{
-    background-image: url('imagens/Frame 237687.png');
-    background-size: cover;
-    background-position: center;
-    height: 370px;
-    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    
+
+}
+.escolher{
+    width: 100%;
+    max-width: 150px;
+    height: 200px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+    text-align: left;
+}
+.escolher:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+
+}
+.escolher p{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin: 5px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.escolher img{
+    width: 90%;
+    height: 40px;
+    margin: 5px;
+
 }
 
 .mais-sobre{
@@ -171,7 +206,7 @@ h1{
 }
 .card{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     margin: 20px auto;
     max-width: 800px;
@@ -186,6 +221,7 @@ h1{
 }
 .mais-sobre p{
     font-size: 12px;
+    font-weight: 500;
 
 }
 .mais-sobre button{
@@ -196,6 +232,12 @@ h1{
     background: rgba(70, 106, 80, 0.60);
     border: #f2f2f2;
     font-weight: 600;
+    margin-top: 10px;
+}
+.mais-sobre button:hover{
+    transform: scale(1.10, 1.10);
+    background-color: #58785B;
+
 }
 
 .v{
@@ -206,10 +248,13 @@ h1{
     color: #466A50;
     background: #f2f2f2;
 }
+.v button:hover{
+    background-color: #ffffff;
+}
 .mais-sobre img {
     width: 350px;
     max-width: 600px;
-    height: 350px;
+    height: 300px;
     max-height: 600px;
     border-radius: 10px;
 }
@@ -235,7 +280,8 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(imagens/images.jpg);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(70, 106, 80, 0.52) 18.5%, rgba(85, 104, 90, 0.52) 66.5%, rgba(102, 102, 102, 0.41) 100%);
+    backdrop-filter: blur(1.0499999523162842px);
     height: 500px;
     color: #f2f2f2;
     overflow: hidden;
