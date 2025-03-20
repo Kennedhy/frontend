@@ -253,6 +253,9 @@ h1{
 .v button:hover{
     background-color: #ffffff;
 }
+.b{
+    flex-direction: row-reverse;
+}
 .mais-sobre img {
     width: 350px;
     max-width: 600px;
@@ -379,5 +382,54 @@ footer{
 
 }
 
+@media (min-width: 1200px) {
+    body{
+        
+    }
+    header{
+        background-image: url(imagens/livros.jpg);
+        
+    }
+    .baner{
+        text-align: start;
+        align-items: center;
+    }
+    .tm{
+        width: 600px;
+        margin-right: 40px;
+    }
+    .g1{
+        display: flex;
+        justify-content: center;
+    }
+    .titulos h2{
+        font-size: 48px;
+    }
+    .informacoes{
+        display: flex;
+    }
+    .card{
+        display: block;
+        max-width: 350px;
+        border-radius: 10px;
+        
+    }
+    .b{
+        background: #58785B;
+        color: #f2f2f2;
+    }
+    .b button{
+        color: #466A50;
+        background: #f2f2f2;
+    }
+    .b button:hover{
+        background-color: #ffffff;
+    }
+    .b img{
 
-
+    }
+    .escolher{
+        max-width: 200px;
+        height: 250px;
+    }
+}
