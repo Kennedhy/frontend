@@ -16,6 +16,11 @@ body {
     overflow-x: hidden;
 
 }
+
+html{
+
+    scroll-behavior: smooth;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -53,7 +58,7 @@ body {
 header{
     display: block;
     text-align: center;
-    background-image: url(imagens/images.jpg);
+    background-image: url(imagens/WhatsApp\ Image\ 2025-03-20\ at\ 19.07.05.jpeg);
     height: 500px;
     color: #f2f2f2;
     margin-bottom: 50px;
@@ -403,22 +408,53 @@ footer{
     header{
         display: flex;
         flex-direction: column;
-        background-image: url(imagens/livros.jpg);
         width: 100%;
         height: 600px;
         
     }
-    .baner{
+    .baner h1{
+        font-size: 50px;
+        width: 600px;
 
     }
-    .tm{
-        width: 600px;
-        margin-right: 40px;
+    .baner p{
+        font-size: 24px;
     }
-    .g1{
-        display: flex;
-        justify-content: center;
-        padding: 50px;
+    .baner button{
+        width: 250px;
+        height: 50px;
+        color: #466A50;
+        border-radius: 10px;
+        background: #f2f2f2;
+        border: #f2f2f2;
+        font-size: 22px;
+        font-family: raleway;
+        font-weight: 800;
+        margin: 10px;
+
+    }
+    .metodos-m,.metodos-p,.metodos-r{
+        width: 100%;
+        max-width: 250px;
+        height: 310px;
+        padding: 0px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+        text-align: left;
+    }
+    .metodos p{
+        margin: 10px;
+        
+    }
+    .metodos h3{
+        font-size: 20px;
+    }
+    .metodos img{
+        width: 100%;
+        height: 120px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     .titulos h2{
         font-size: 48px;
@@ -468,14 +504,92 @@ footer{
     .escolher p{
         font-size: 14px;
     }
-    .sc{
-        width: 600px;
-        margin-right: 40px;
+    .caminho{
+        width: 100%;
+        max-width: 200px;
+        height: 250px;
+        padding: 5px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+        text-align: left;
     }
-    .ca{
+    .caminho h5{
+        margin-top: 15px;
+        margin-left: 3px;
+        color: #466A50;
+        font-size: 17px;
+    
+    }
+    .caminho p{
         display: flex;
         justify-content: center;
-        padding: 50px;
-
+        font-size: 13px;
+        margin: 5px;
+        font-weight: 300;
+        margin-top: -5px;
     }
+    .caminho img{
+        display: flex;
+        width: 50px;
+        height: auto;
+        margin: 5px;
+    }
+    .historias{
+        width: 100%;
+        max-width: 200px;
+        height: 250px;
+        padding: 5px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+        text-align: left;
+    }
+    .historias h5{
+        margin-top: 15px;
+        margin-left: 3px;
+        color: #466A50;
+        font-size: 17px;
+    
+    }
+    .historias p{
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        margin: 5px;
+        font-weight: 300;
+        margin-top: -5px;
+    }
+    .historias img{
+        display: flex;
+        width: 50px;
+        height: auto;
+        margin: 5px;
+    }
+    .baner-2 h1{
+        font-size: 40px;
+        padding: 0px;
+        width: 600px;
+        display: inline-block;
+        
+    }
+    .baner-2 p{
+        font-size: 18px;
+        margin: 10px;
+        width: 600px;
+    }
+    .baner-2 button{
+        width: 200px;
+        height: 40px;
+        color: #466A50;
+        border-radius: 10px;
+        background: #f2f2f2;
+        border: #f2f2f2;
+        font-size: 20px;
+        font-family: raleway;
+        font-weight: 800;
+        margin: 15px;
+    
+    }
+
 }
